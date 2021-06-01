@@ -1,47 +1,42 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-                <html xmlns="http://www.w3.org/1999/xhtml">
-                  <head>
-                    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
-                    <title>El Colombiano De Bien Int,</title>
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                    <link rel="stylesheet" type="text/css" href="assets/font/font-awesome.min.css" />
-                    <link rel="stylesheet" type="text/css" href="assets/font/font.css" />
-                    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"
-                      media="screen" />
-                    <link rel="stylesheet" type="text/css" href="assets/css/style.css"
-                      media="screen" />
-                    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css"
-                      media="screen" />
-                    <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css"
-                      media="screen" />
-                  </head>
-                  <body>
-                    <div class="body_wrapper">
-                      <div class="center">
-                        <div class="header_area">
-                          <div class="logo floatleft"><a href="#"><img src="images/logo.png"
-                                alt="" /></a></div>
-                          <div class="top_menu floatleft">
-                            <ul>
-                              <li><a href="index.html">Home</a></li>
-                              <li><a href="#">About</a></li>
-                              <li><a href="#">Contact us</a></li>
-                              <li><a href="#">Subscribe</a></li>
-                              <li><a href="#">Login</a></li>
-                            </ul>
-                          </div>
-                          <br />
-                          <div class="social_plus_search floatright">
-                            <div class="social">
-                              <ul>
-                                <li><a href="#" class="feed"></a><br />
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="search">
-                              <form action="#" method="post" id="search_form"> <input
-                                  value="Search news" id="s" type="text" /> <input
-id="searchform" value="search" type="submit" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+    <title>El Colombiano De Bien Int.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/font/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/font/font.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css"
+      media="screen" />
+  </head>
+  <body>
+    <div class="body_wrapper">
+      <div class="center">
+        <div class="header_area">
+          <div class="logo floatleft"><a href="#"><img src="images/logo.png" alt="" /></a></div>
+          <div class="top_menu floatleft">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Subscribe</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+          </div>
+          <br />
+          <div class="social_plus_search floatright">
+            <div class="social">
+              <ul>
+                <li><a href="#" class="feed"></a><br />
+                </li>
+              </ul>
+            </div>
+            <div class="search">
+              <form action="#" method="post" id="search_form"> <input value="Search news"
+                  id="s" type="text" /> <input id="searchform" value="search" type="submit" />
             <input value="post" name="post_type" type="hidden" />
           </form>
         </div>
@@ -98,7 +93,7 @@ style="width: 143px; height: 80px;" />
             <div class="single_left_coloum floatleft"> <img src="https://cdni.rt.com/files/2021.04/article/606746f3203027485332ef21.jpg" />
               <h3>Moscow court fines Twitter three times in a single day as Russia’s showdown with social-media giant over illegal content continues.<br /><br /><a
 class="readmore" href="https://www.rt.com/russia/519987-twitter-fine-illegal-content/">read more</a> </h3></div>
-            <div class="single_left_coloum floatleft"> <img src="https://images.ctfassets.net/qnesrjodfi80/D2y5BmNVXi3ZfgpvHo9d0/d003074498efa823a28c557f08de0c1d/StandWithIsrael_Petition_WEB_GRID.png?" />
+            <div class="single_left_coloum floatleft"> <img src="images/StandWithIsrael_Petition_WEB_GRID.png" />
               <h3>The Left is spreading propaganda that claims Israel is an oppressive aggressor.</h3><h3><a
 class="readmore" href="https://www.prageru.com/stand-with-israel-petition/">read more</a> </h3></div>
             <div class="single_left_coloum floatleft"> <img src="https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,pg_1,q_60,w_965/4eaf1ec8cc9fd208b6df009a89c26041.jpg" />
@@ -120,14 +115,14 @@ class="readmore">READ MORE</a></p>
               <p class="readmore">READ MORE</p>
             </div>
             <div class="single_cat_left_content floatleft">
-              <h3><meta http-equiv="content-type" content="text/html; charset=utf-8" /></h3>
+              <h3></h3>
               <h3>As our Country is being destroyed, both inside and out, the Presidential Election of 2020 will go down as the crime of the century             </h3>
               <p class="readmore"><a href="https://pastebin.com/akZE9gaT" class="readmore">Read more </a></p>
             </div>
             <div class="single_cat_left_content floatleft">
               <h3>The Left is spreading propaganda claiming billionaires are not an important asset to society</h3>
               
-              <p class="readmore"><br>READ MORE</p>
+              <p class="readmore"><br />READ MORE</p>
             </div>
           </div>
         </div>
