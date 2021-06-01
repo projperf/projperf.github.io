@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+    <title>Times Press</title>
+    <link rel="stylesheet" media="screen" href="css/superfish.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="css/stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,italic,bold,bolditalic"
+      type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script src="js/hoverIntent.js" type="text/javascript"></script>
+    <script src="js/superfish.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/jquery.animate-shadow.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+    <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.pack.js"></script>
+    <link rel="stylesheet" media="screen" href="nivo-slider/nivo-slider.css" type="text/css" />
+    <script type="text/javascript">
+//<![CDATA[
+$(window).load(function () {
+    $('#slider').nivoSlider({
+        effect: 'slideInLeft', // Specify sets like: 'fold,fade,sliceDown'
+        slices: 10,
+        boxCols: 10, // For box animations
+        boxRows: 5, // For box animations
+        animSpeed: 1000, // Slide transition speed
+        pauseTime: 4500, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: true, // Next & Prev navigation
+        directionNavHide: true, // Only show on hover
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: true, // Use thumbnails for Control Nav
+        controlNavThumbsFromRel: true, // Use image rel for thumbs
+        pauseOnHover: true, // Stop animation while hovering
+    });
+});
+//]]>
+</script> <script type="text/javascript">
+//featured slider
+jQuery('#featured_slider').cycle({
+    fx: 'scrollHorz',
+    speed: 800,
+    timeout: 0,
+    easing: 'easeInOutQuint',
+    next: '#featured_slider_next',
+    prev: '#featured_slider_prev'
+});
+</script> </head>
+  <body><br />
+    <div id="panel" style="display: none;">
+      <p># You can add any kind of announcement or updates happening on your
+        website</p>
+    </div>
+    <a id="notification" class="btn-slide" href="#">↓</a>
+    <div id="container_wrapper">
+      <div id="header">
+        <div id="header-top">
+          <h2 id="logo"><a href="#"></a></h2>
+          <div class="nav-container">
+            <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="post-page.html">Post Page</a></li>
+              <li class="sub"><a href="#">Dropdowns</a>
+                <ul>
+                  <li class="sub"><a href="#">Item one</a></li>
+                  <li class="sub"><a href="#">Item two</a></li>
+                  <li class="sub"><a href="#">Item three</a></li>
+                </ul>
+              </li>
+              <li><a href="full-width.html">Fullwidth</a></li>
+              <li><a href="archives.html">Archives</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <form method="get" id="searchform" action="#" name="searchform"> <input
+              class="rounded text_input" value="" name="s" id="s" type="text" />
+            <input class="button ie6fix" id="searchsubmit" value="→" type="submit" />
+      </form>
+    </div>
+    <div id="header-bottom">
+      <div class="category-container">
+        <ul class="sf-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">World news</a></li>
+          <li><a href="#">Sports</a></li>
+          <li> <a href="#">Dropdown</a>
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li class="current"> <a href="#">Drop Menu 2</a>
+                <ul>
+                  <li class="current"><a href="#">Sidemenu 1</a></li>
+                  <li><a href="#">Sidemenu 2</a></li>
+                  <li><a href="#">Sidemenu 3</a></li>
+                </ul>
+              </li>
+              <li> <a href="#">Drop Menu 3</a> </li>
+              <li> <a href="#">Drop Menu 4</a> </li>
+            </ul>
+          </li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Weather</a></li>
+        </ul>
+      </div>
+      <div class="subscriber_widget">  <span class="feed"><a href="#">1453 Subscribers</a></span> <span
+class="email"><a href="#">Subscribe via email</a></span> </div>
+    </div>
+  </div>
+  <div id="outer-wrapper">
+    <div id="slider-wrapper">
+      <div id="slider" class="nivoSlider"> <a href="#"><img src="nivo-slider/facebook_chat.jpg"
+alt="" rel="nivo-slider/facebook_chat_thumb.jpg" /></a> <a href="#"><img src="nivo-slider/lady_gaga.jpg"
+alt="" rel="nivo-slider/lady_gaga_thumb.jpg" /></a> <a href="#"><img src="nivo-slider/madonna.jpg"
+alt="" rel="nivo-slider/madonna_thumb.jpg" /></a> <a href="#"><img src="nivo-slider/apple.jpg"
+alt="" rel="nivo-slider/apple_thumb.jpg" /></a> <a href="#"><img src="nivo-slider/movie.jpg"
+alt="" rel="nivo-slider/movie_thumb.jpg" /></a> <img src="nivo-slider/money.jpg"
+alt="" rel="nivo-slider/money_thumb.jpg" /> </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="featured">
+      <h4 id="featured-title"><span>Featured</span></h4>
+      <div id="featured_slider" style="position:relative; overflow:hidden;"><div
+class="item">
+          <div class="column ">
+            <div class="inner">
+              <div class="image"> <a href="#"><img src="https://cdni.rt.com/files/2021.04/article/60808c1a85f5405af345b04b.JPG" /></a></div>
+              <h3><a href="https://foreignpolicy.com/2021/04/25/navalny-protest-dissent-russia-putin/">Navalny's Protests Show How Dissent Has Changed in Russia</a></h3>
+            </div>
+          </div>
+          <div class="column ">
+            <div class="inner">
+              <div class="image"> <a href="https://www.dw.com/en/can-imprisoned-navalny-draw-500000-protesters-in-russia/a-57066502"><img
+src="https://static.dw.com/image/56399064_303.jpg" /></a></div>
+              <h3><a href="#">Can imprisoned Navalny draw 500,000 protesters in Russia?</a></h3>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner">
+              <div class="image"> <a href="#"><img src="https://cloudfront-us-east-1.images.arcpublishing.com/semana/XFZANKDFTVEVJDQB3XCLSC7SSA.jpeg" /></a></div>
+              <h3><a href="#">15 civilians injured as Colombian police abuse of power worsens amidst protests</a></h3>
+            </div>
+          </div>
+          <div class="column ">
+            <div class="inner">
+              <div class="image"> <a href="https://www.washingtonpost.com/outlook/2021/05/24/palestinian-citizens-israel-like-me-are-facing-terrifying-new-attacks/"><img
+src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XJBAS5VUJMI6XPEW7X2V3ZB354.jpg&amp;w=916" /></a></div>
+              <h3><a href="#">Palestinian citizens of Israel like me are facing terrifying new attacks
+</a></h3>
+            </div>
+          </div>
+          <div class="column ">
+            <div class="inner">
+              <div class="image"> <a href="#"><img alt="" src="post-images/san-francisco170x124.jpg" /></a></div>
+              <h3><a href="#">Survey ranks San Francisco greenest U.S. city</a></h3>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="item">
+          <div class="column">
+            <div class="inner">
+              <div class="image"> <a href="#"><img alt="" src="post-images/satyagraha170x124.jpg" /></a></div>
+              <h3><a href="#">Gandhi's Salt Satyagraha the most influential protests</a></h3>
+            </div>
+          </div>
+          <div class="column ">
+            <div class="inner">
+              <div class="image"> </div>
+              <h3><a href="#">Sarkozy involved in scuffle during handshake tour</a></h3>
+            </div>
+          </div>
+          <div class="column ">
+            <div class="inner">
+              <div class="image"> </div>
+              <h3><a href="#">Turtles temporarily shut down runway at JFK airport</a></h3>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="nav_controls">
+        <div id="featured_slider_prev"><a href="#">‹‹ Previous</a></div>
+        <div id="featured_slider_next"><a href="#">Next ››</a></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div id="content-wrapper">
+      <div id="inner-content">
+        <div id="category_sort" class="clearfix">
+          <div class="column">
+            <h4><span>Politics</span></h4>
+            <ul>
+              <li>Navalny's Protests Show How Dissent Has Changed in Russia</li>
+              <li><span style="color: #333333;">15 civilians injured as Colombian police abuse of power worsens amidst protests<br /></span></li>
+              <li><a href="#">Panasonic unveils stereo headset</a></li>
+              </ul>
+          </div>
+          <div class="column">
+            <h4><span>Hot on Web</span></h4>
+            <ul>
+              <li>Trump: A new era for fascism in America?</li>
+              <li>Police brutality cases spike amidst pandemic</li>
+              <li><a href="#">Can imprisoned Navalny draw 500,000 protesters in Russia?</a></li>
+              
+              
+            </ul>
+          </div>
+          <div class="column">
+            <h4><span>Economy</span></h4>
+            <ul>
+              <li>Elon musk tweets funny dog again, crashes Bitcoin.</li>
+              <li>Crypto crash costs investors $1 trillion.</li>
+              <li>The Big Short 2: TSLA</li>
+              </ul>
+          </div>
+        </div>
+        <div id="double_container">
+          <h4 class="cont-title"><span>Some more posts</span></h4>
+          <div class="post_double">
+            <h4 class="post_title">Alexei Navalny: Thousands across Russia defy ban on protests<br /><span
+class="comment_bubble"><a href="#">21</a></span></h4>
+            <div class="post_content clearfix">
+              <div class="thumbnail"> <a href="#"><img src="file:///media/stella/a3b949fa-b3f1-4a26-9874-4e55b44027c5/test/times-press/post-images/T6CFuYmCOIzk.jpg" /></a></div>
+              <div class="summary_article"> 
+                <p>They are calling for Navalny, who has been on hunger strike for weeks, to receive proper medical care.</p>
+              </div>
+            </div>
+            <span class="read_more"><a href="https://www.bbc.com/news/world-europe-56834655">More...</a></span> </div>
+          <div class="post_double">
+            <h4 class="post_title">Russia's far-Right government sues twitter</h4><h4
+class="post_title">for alleged illegal content<span class="comment_bubble"><a href="#">9</a></span></h4>
+            <div class="post_content clearfix">
+              <div class="thumbnail"> <a href="#"><img src="https://cdni.rt.com/files/2021.04/article/606746f3203027485332ef21.jpg" /></a></div>
+              <div class="summary_article">
+                <p>The Kremlin government continues to censor Russian citizen's access to free information on the web. Deeming recordings from recent protests as illegal in the country.</p>
+              </div>
+            </div>
+            <span class="read_more"><a href="#">More...</a></span> </div>
+          <div class="post_double">
+            <h4 class="post_title"><a href="#">15 civilians injured as Colombian police abuse of power worsens amidst protests</a><span
+class="comment_bubble"><a href="#">15</a></span></h4>
+            <div class="post_content clearfix">
+              <div class="thumbnail"> <a href="#"><img src="https://cloudfront-us-east-1.images.arcpublishing.com/semana/XFZANKDFTVEVJDQB3XCLSC7SSA.jpeg" /></a></div>
+              <div class="summary_article">
+                <p>As police brutality cases worsen in the capital city of Colombia 15 civilians were injured amidst the protests. </p>
+              </div>
+            </div>
+            <span class="read_more"><a href="#">More...</a></span> </div>
+          <div class="post_double">
+            <h4 class="post_title"><a href="#">Fascism is back in Europe</a><span
+class="comment_bubble"><a href="#">7</a></span></h4>
+            <div class="post_content clearfix">
+              <div class="thumbnail"> <a href="#"><img src="https://i.guim.co.uk/img/media/373d7bde46464eee2e4cc48708ab2c1bac98cd56/0_86_5043_3027/master/5043.jpg?width=445&amp;quality=45&amp;auto=format&amp;fit=max&amp;dpr=2&amp;s=7306088179811702ce6e8125b4bf2a1f" /></a></div>
+              <div class="summary_article">
+                <p>UK Prime Minister deems refugee immigration racist against white Europeans, Sparking questions over new currents of facism and xenophobia in Europe.</p>
+              </div>
+            </div>
+            <span class="read_more"><a href="#">More...</a></span> </div>
+          <div class="clear"></div>
+        </div>
+        <div id="single_post_container">
+          <div class="post_single">
+            <h4 class="post_title clearfix">Police brutality cases spike amidst pandemic<span
+class="comment_bubble"><a href="#">4</a></span></h4>
+            <div class="post_content clearfix">
+              <div class="thumbnail"> <a href="#"><img src="post-images/IcOMgoj.jpg" /></a></div>
+              <div class="summary_article">As systemic racism becomes more obvious than ever in the US</div>
+            </div>
+            <span class="read_more"><a href="#">More...</a></span> </div>
+          <div class="post_single">
+            <h4 class="post_title">The anger driving Colombia's protest movement isn't going away anytime soon<br /><span
+class="comment_bubble"><a href="#">10</a></span></h4>
+            <div class="post_content clearfix">
+              <div class="thumbnail"> <a href="#"><img src="file:///media/stella/a3b949fa-b3f1-4a26-9874-4e55b44027c5/test/times-press/post-images/Gfgl8Gg7QAiv.jpg" /></a></div>
+              <div class="summary_article">What started as a tax reform proposal to help ease the strain of the pandemic on the economy and balance government finances ended with people taking to the streets to express their discontent.</div><div
+class="summary_article"><br /></div><div class="summary_article">Large-scale protests in Colombia are now in their third week, and prosecutors have announced homicide charges after a national police officer was seen on video shooting and killing a 17-year-old in the city of Cali during the first day of demonstrations.<br /><p><meta
+http-equiv="content-type" content="text/html; charset=utf-8" /></p>
+              </div>
+            </div>
+            <span class="read_more"><a href="https://www.cnn.com/2021/05/20/americas/colombia-protests-deaths-intl-latam/index.html">More...</a></span> </div>
+          <div class="clear"></div>
+          <div class="pagenavi clearfix"> <span class="pages">Page 1 of 18</span><span
+class="current">1</span> <a class="page_number" href="#">2</a> <a class="page_number"
+href="#">3</a> <a class="page_number" href="#">4</a> <a class="page_number" href="#">5</a> <a
+class="page_number" href="#">6</a> <a class="page_number" href="#">7</a> <a class="page_number"
+href="#">8</a> <a class="nextpostslink" href="#">››</a> <span class="extend">...</span> <a
+class="last" href="#">Last »</a></div>
+        </div>
+      </div><br /><div id="sidebar"><div class="widget"><div id="tabs"><ul id="tab-items"><li><a
+href="#tab-one">Popular</a></li>
+              <li><a href="#tab-two">Recent</a></li>
+              <li><a href="#tab-three">Comments</a></li>
+              <li><a href="#tab-four">Tags</a></li>
+            </ul>
+            <div class="tabs-inner">
+              <div id="tab-one" class="tab">
+                <ul>
+                  <li>
+                    <div class="tab-thumb"> <a class="thumb" href="#"><img src="https://cdni.rt.com/files/2021.04/article/606746f3203027485332ef21.jpg"
+width="45" height="45" /></a></div>
+                    <h3 class="entry-title"><a class="title" href="#">Russia's far-Right government sues twitter..</a></h3>
+                    <div class="entry-meta entry-header"> <span class="published">June 7, 2021</span> <span
+class="seperator">,</span> <span class="comment_number"> <a href="#">21 Comments</a></span></div>
+                  </li>
+                  <li>
+                    <div class="tab-thumb"> <a class="thumb" href="#"><img src="https://i.guim.co.uk/img/media/373d7bde46464eee2e4cc48708ab2c1bac98cd56/0_86_5043_3027/master/5043.jpg?width=445&amp;quality=45&amp;auto=format&amp;fit=max&amp;dpr=2&amp;s=7306088179811702ce6e8125b4bf2a1f"
+width="45" height="45" /></a></div>
+                    <h3 class="entry-title"><a class="title" href="#">Fascism is back in Europe</a></h3>
+                    <div class="entry-meta entry-header"> <span class="published">June 21, 2021</span> <span
+class="seperator">,</span> <span class="comment_number"> <a href="#">10 Comments</a></span></div>
+                  </li>
+                  <li>
+                    <div class="tab-thumb"> <a class="thumb" href="#"><img src="https://i.imgur.com/IcOMgoj.png"
+width="45" height="45" /></a></div>
+                    <h3 class="entry-title"><a class="title" href="#">Police brutality cases spike amidst pandemic</a></h3>
+                    <div class="entry-meta entry-header"> <span class="published">June 1, 2021</span> <span
+class="seperator">,</span> <span class="comment_number"> <a href="#">9 Comments</a></span></div>
+                  </li>
+                  </ul></div><div class="tab tab-tags clearfix" id="tab-four"> <a
+href="#">Business</a> <a href="#">World</a> <a href="#">Sports</a> <a href="#">Travel</a> <a
+href="#">Health</a> <a href="#">Entertainment</a> <a href="#">Weather</a> <a href="#">Hot Gossip</a> <a
+href="#">Reports</a> <a href="#">Obama</a></div>
+            </div>
+          </div>
+        </div><br />
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div id="footer"> <span id="Scroll"><a href="#">↑</a></span>
+    <div id="footer_inner">
+      <div class="columns">
+        <div class="widget">
+          <h6>About Us</h6>
+          <p>Lorem ipsum dolor sit consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa quis enim.</p>
+          <p>Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="columns">
+        <div class="widget">
+          <h6>My Flickr</h6>
+          <div class="flickr">
+            <div> <a href="#"><img alt="" src="flickr/blaclbeard.jpg" /></a></div>
+            <div> <a href="#"><img alt="" src="flickr/robo.jpg" /></a></div>
+            <div> <a href="#"><img alt="" src="flickr/greenlantern.jpg" /></a></div>
+            <div class="last"> <a href="#"><img alt="" src="flickr/grey_matter_2.jpg" /></a></div>
+            <div> <a href="#"><img alt="" src="flickr/grey_matter_1.jpg" /></a></div>
+            <div> <a href="#"><img alt="" src="flickr/will_be_back.jpg" /></a></div>
+            <div> <a href="#"><img alt="" src="flickr/shot.jpg" /></a></div>
+            <div class="last"> <a href="#"><img alt="" src="flickr/vector.jpg" /></a></div>
+            <div> <a href="#"><img alt="" src="flickr/ribbon.jpg" /></a></div>
+            <div> <a href="#"><img alt="" src="flickr/workin.jpg" /></a></div>
+            <div> <a href="#"><img alt="" src="flickr/mj.jpg" /></a></div>
+            <div class="last"> <a href="#"><img alt="" src="flickr/blaclbeard.jpg" /></a></div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="widget">
+          <h6>Recent Posts</h6>
+          <ul class="recent_posts">
+            <li class="clearfix">
+              <h3 class="title"><a href="#">Samsung seeks ban on sale of key Apple products in US</a></h3>
+            </li>
+            <li class="clearfix">
+              <h3 class="title"><a href="#">Big fast-food chains lag rivals in taste</a></h3>
+            </li>
+            <li class="clearfix">
+              <h3 class="title"><a href="#">Toyota recalls 110,000 hybrid cars on safety concerns</a></h3>
+            </li>
+            <li class="clearfix">
+              <h3 class="title"><a href="#">Sony hacker now on Facebook payroll</a></h3>
+            </li>
+            <li class="clearfix">
+              <h3 class="title"><a href="#">Sarkozy involved in scuffle during handshake tour</a></h3>
+            </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="columns" style="width:15% !important;">
+        <div class="widget">
+          <h6>Quick links</h6>
+          <ul class="quick_links">
+            <li><a href="#">World news</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Entertainment</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Helth</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Sports</a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+      <div class="footer_bottom">
+        <ul class="footer_menu">
+          <li><a href="#">Home</a> /</li>
+          <li><a href="#">About</a> /</li>
+          <li><a href="#">Contact</a> /</li>
+          <li><a href="#">Licensing</a></li>
+        </ul>
+        <p>© Copyright 2011. All rights reserved. Template by <a target="_blank"
+href="http://www.bloggerzbible.com">Jdsans</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>
